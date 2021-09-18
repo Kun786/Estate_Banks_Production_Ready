@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header styling starting*/
+.navbar{
+	background-color: #563d7c !important;
+	color: #caccd1 !important;
+}
+.navbar a {
+	color: #caccd1 !important;
+}
+.navbar a:hover{
+	color: whitesmoke !important;
+}
+.carousel img{
+	width: 100%;
+	height: 600px;
+}
+/*header styling ending*/
+/*footer styling strting*/
+
+footer{
+	width: 100%;
+	background-color: #563d7c;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	padding: 10px;
+}
+/*footer styling ending*/
+/*location box styling starting*/
+.location{
+	color: #563d7c;
+}
+/*location styling ending*/
+/*get in touch styling starting*/
+.get{
+	color: #563d7c;
+}
+.get ul{
+	list-style: none;
+}
+.get ul li{
+	font-weight: bold;
+
+}
+
+#loc{
+	color: red;
+	font-size: 20px;
+}
+#ph{
+	font-size: 20px;
+	color: blue;
+}
+#wh{
+	font-size: 20px;
+	color: #0abf53;
+}
+#em{
+	font-size: 20px;
+	color: #f47721;
+}
+.get table td{
+	padding: 7px;
+}
+.follow{
+	padding: 25px;
+}
+.follow ul{
+	text-align: center;
+}
+.follow ul li{
+	color: #563d7c;
+	margin: 0px 10px;
+	display: inline-block;
+}
+.follow ul li a{
+	color: #563d7c
+}
+#yt:hover{
+	color: red !important;
+}
+#fb:hover{
+	color: #003666 !important;
+}
+#in:hover{
+	color: #ed008c !important;
+}
+#tw:hover{
+	color: #00bce4 !important;
+}
+hr{
+	background-color: #563d7c;
+}
+/*get in touch styling ending*/

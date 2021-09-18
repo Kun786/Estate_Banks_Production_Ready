@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    background-color: #563d7c;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.box {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #563d7c;
+    color: white;
+    text-transform: uppercase;
+}
+
+sup {
+    font-size: 15px;
+}
+
+table {
+    color: #563d7c;
+    width: 70%;
+}
+
+table tr {
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #563d7c !important;
+}
+
+.radio-group input[type="radio"] {
+    margin-left: 15px;
+}

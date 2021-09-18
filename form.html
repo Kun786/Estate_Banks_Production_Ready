@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <script src="bootstrap/js/jquery.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="https://kit.fontawesome.com/d6fb912aa0.js"></script>
+ <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <style>
+ 
+ .bx:hover .card-body{
+    box-shadow: 0px 1px 5px 1px;
+    transition: 0.3s linear;
+  }
+  .featured{
+    top: 5px;
+    background: #ff0000;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+  }
+  .feature ul{
+    list-style: none;
+    margin: 0px;
+  }
+  .feature ul li{
+    display: inline-block;
+    margin-left: 15px;
+  }
+</style>
+</head>
+<body>
+  <!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="box">
+          <img src="imgs/bg4.jpg" alt="" class="img-fluid"><br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis at harum a sapiente delectus laboriosam tenetur est</p>
+          <ul>
+            <li>550,0000</li>
+            <li class="center">1 Kanal</li>
+            <li><button class="btn btn-sm btn-info" data-toggle="modal" data-target="#exampleModalCenter">Call</button></li>
+          </ul>
+          Modal
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Real Estate Banks&reg;</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="imgs/avatar.png" class="img-fluid">
+                 <table>
+                  <tr>
+                    <td>Name</td><td>User Name</td>
+                  </tr>
+                  <tr>
+                    <td>Mobile # </td><td>012345678988</td>
+                  </tr>
+                  <tr>
+                    <td>Email</td><td>example@gmail.com</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        modal end
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="row text-center">
+        <div class="col"></div>
+        <div class="col mb-3 mt-3"><h3>Featured Properties</h3></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row feature">
+    <div class="col-lg-4 col-md-6 col-sm-12 bx">
+      <div class="card" style="width: 22rem;">
+        <img src="imgs/no-image.jpg" class="card-img-top" alt="...">
+        <div class="featured">Featured</div>
+        <div class="card-body">
+          <h6 class="text-left">PKR 6000000</h6>
+          <h5>1 Kanal Beautiful House for Sale in DHA Phase 5</h5>
+          <p class="card-text"><small><i class="fas fa-map-marker-alt"></i> C Block Phase 1 DHA Lahore Cantt</small></p>
+          <ul>
+            <li><i class="fas fa-bed"></i> 4</li>
+            <li><i class="fas fa-bath"></i> 4</li>
+            <li><i class="fas fa-ruler-combined"></i> 1</li>
+            <li><i class="fas fa-utensils"></i> 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
